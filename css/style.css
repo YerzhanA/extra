@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  font-family: "Commissioner", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+ul li {
+  float: left;
+}
+ul a {
+  color: black;
+  margin-left: 30px;
+}
+/*Header*/
+header {
+  width: 100%;
+  height: 15%;
+  float: left;
+  padding: 30px 0px;
+  border-bottom: 1px solid silver;
+  background-color: white;
+}
+.menu {
+  float: left;
+}
+.menu a:hover {
+  border-bottom: 2px solid #ffcd38;
+}
+
+.social {
+  float: right;
+}
+.social a {
+  margin-right: 20px;
+}
+.social img {
+  width: 30px;
+  height: 30px;
+}
+
+/*Header*/
+
+.about_me {
+  float: left;
+  border-bottom: 1px solid silver; /*полоса*/
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+}
+.title_span {
+  color: silver;
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.title {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.main_text {
+  width: 1000px;
+  text-align: center;
+  line-height: 25px;
+  letter-spacing: 2px;
+  margin: 0 auto;
+}
+#fragment {
+  color: black;
+  font-weight: bold;
+}
+
+/*me*/
+.me {
+  margin-top: 50px;
+  text-align: center;
+}
+.photo {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+.photo img {
+  padding-top: 300px;
+  margin-left: 20px;
+}
+/*me*/
+
+.portfolio {
+  width: 100%;
+  background-color: #ff7b1d;
+  float: left;
+  padding: 80px 0;
+  border-bottom: 1px solid silver;
+}
+.works {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+.item {
+  float: left;
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+.first {
+  background-image: url(../img/portfolio1.jpg);
+}
+.second {
+  background-image: url(../img/portfolio2.jpg);
+}
+
+.third {
+  background-image: url(../img/portfolio3.jpg);
+}
+.thought {
+  background-image: url(../img/portfolio4.jpg);
+}
+.fifth {
+  background-image: url(../img/portfolio5.jpg);
+}
+.sixth {
+  background-image: url(../img/portfolio6.jpg);
+}
+
+.contact {
+  width: 100%;
+  padding: 100px 0;
+  border-bottom: 1px solid silver;
+  float: left;
+  text-align: center;
+}
+.form {
+  width: 400px;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+.form input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid silver;
+}
+.forminput:placeholder {
+  padding-left: 10px;
+}
+.form button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: #ff7b1d;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-left: 10px;
+}
+.form input:hover {
+  cursor: pointer;
+}
